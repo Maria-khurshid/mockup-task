@@ -1,0 +1,281 @@
+/* write your styles here */
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 33.33%;
+}
+
+.col-9 {
+    width: 45%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 33.33%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* insted of marquee tag I've used that css animation style */
+
+div.offer p {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 600px;
+    }
+}
+
+div.offer {
+    align-items: flex-end;
+    padding: 6px;
+    color: white;
+    background-color: red;
+}
+
+.offer p {
+    position: fixed;
+}
+
+mark {
+    background-color: yellow;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+    align-items: center;
+}
+
+#navigation img {
+    width: 48px;
+    height: 32px;
+    padding: 18px;
+    background-color: #4c4c4c;
+    margin: 0px;
+}
+
+#navigation ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 16px;
+    color: #c4c4c4;
+    background-color: #4c4c4c;
+}
+
+#navigation ul {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f08d97 url(images/floral.png) repeat-y;
+}
+
+.btn h1 {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn p {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.btn button {
+    background-color: black;
+    border: none;
+    color: #f08d97;
+    font-size: large;
+    padding: 30px 40px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.services {
+    font-size: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #efece7 url(images/floral.png) repeat-y;
+}
+
+.services h2 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.services figure {
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.services i {
+    justify-content: center;
+    font-size: 150px;
+}
+
+.services h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.portfolio {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ddceb4 url(images/floral.png) repeat-y;
+}
+
+.portfolio h2 {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.portfolio p {
+    font-size: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects img {
+    width: 350px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.contact {
+    padding-left: 560px;
+    padding-right: 560px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #afc7c6 url(images/floral.png) repeat-y;
+}
+
+.contact h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.social-media i {
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 76px;
+}
+
+.social-media i:hover {
+    background-color: black;
+    color: rgb(233, 222, 195)
+}
+
+footer {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+span:hover i {
+    color: red;
+}
+
+span {
+    transition: 0.5s;
+}
+
+/* figure figcaption {
+    display: none;
+}
+
+figure:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5)
+} */
