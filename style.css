@@ -77,7 +77,7 @@ mark {
 }
 
 section {
-    background-image: url("./images/floral.png");
+    background-image: url(./images/floral.png);
 }
 
 .join-btn {
