@@ -5,7 +5,7 @@ body {
 }
 .g-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
 }
 
 * {
@@ -81,7 +81,7 @@ mark {
 }
 
 section {
-    background-image: url(images/floral.png);
+    background-image: url("images/floral.png");
 }
 
 .join-btn {
