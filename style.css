@@ -86,7 +86,7 @@ mark {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f08d97;
+    background: #f08d97 url(images/floral.png) repeat-y;
 }
 
 .join-btn h1 {
