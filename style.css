@@ -17,7 +17,8 @@ body {
 
 marquee {
     color: white;
-    background-color: red;
+    background-color: #ed484c;
+    padding: 5px 0px;   
 }
 
 mark {
@@ -69,6 +70,7 @@ mark {
 }
 
 .join-btn h1 {
+    text-align: center;
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -265,8 +267,7 @@ footer:hover i {
 }
 
 .portfolio figure:hover figcaption i {
-    color: black;
-    background-color: rgba(225, 225, 225, 0.7);
+    color: rgba (0, 0, 0, 0.7);
     transition: 0.5s;
 }
 
@@ -308,6 +309,7 @@ footer:hover i {
     }
     .projects {
         padding: 0px;
+        justify-content: center;
         text-align: center;
         flex-wrap: wrap;
         display: flex;
@@ -334,8 +336,9 @@ footer:hover i {
         /* margin: 10px; */
         height: 155px;
         background-size: cover;
+        align-items: center;
     }
-    #view-part {
+    .view-part {
         display: flex;
     }
     #home {
@@ -365,11 +368,10 @@ footer:hover i {
         color: #f5384a;
         transition: 0.5s ease;
     }
-    .portfolio figure:hover figcaption {
-        display: block;
-        opacity: 1;
+    .portfolio figure:hover figcaption i {
+        color: rgba (0, 0, 0, 0.7);
         transition: 0.5s;
-    }
+}
 }
 
 @media screen and (max-width: 651px) {
@@ -530,6 +532,7 @@ footer:hover i {
         text-align: center;
     }
     .projects {
+        justify-content: center;
         padding: 20px;
         text-align: center;
         flex-wrap: wrap;
@@ -555,8 +558,9 @@ footer:hover i {
         margin: 10px;
         height: 250px;
         background-size: cover;
+        align-items: center;
     }
-    #view-part {
+    .view-part {
         display: flex;
     }
     .portfolio figure#locations {
@@ -578,6 +582,8 @@ footer:hover i {
         background-image: url(images/projects/p-6.png);
     }
     .projects figcaption i {
+        display: flex;
+        justify-content: center;
         border: 1px solid white;
         border-radius: 50%;
         padding: 8px;
