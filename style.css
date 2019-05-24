@@ -340,6 +340,7 @@ footer:hover i {
     }
     .view-part {
         display: flex;
+        margin-left: 39px;
     }
     #home {
         display: flex;
@@ -562,6 +563,7 @@ footer:hover i {
     }
     .view-part {
         display: flex;
+        margin-left: 39px;
     }
     .portfolio figure#locations {
         background-image: url(images/projects/p-1.png);
