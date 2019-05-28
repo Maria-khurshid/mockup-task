@@ -18,7 +18,7 @@ body {
 marquee {
     color: white;
     background-color: #ed484c;
-    padding: 5px 0px;   
+    padding: 5px 0px;
 }
 
 mark {
@@ -193,14 +193,15 @@ footer:hover i {
 }
 
 .projects {
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
 }
 
 .portfolio figcaption {
-    padding-top: 40px;
+    padding-top: 10px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -309,12 +310,10 @@ footer:hover i {
     }
     .projects {
         padding: 0px;
-        justify-content: center;
-        text-align: center;
+        /* text-align: center; */
         flex-wrap: wrap;
         display: flex;
-        width: 100%;
-        height: 100%;
+        justify-content: center;
     }
     .portfolio figcaption {
         position: absolute;
@@ -323,7 +322,7 @@ footer:hover i {
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
-        width: 50%;
+        width: 101%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
@@ -331,16 +330,17 @@ footer:hover i {
     }
     .portfolio figure {
         position: relative;
-        border-radius: 15px;
-        width: 100%;
-        /* margin: 10px; */
-        height: 155px;
+        border-radius: 21px;
+        width: 264px;
+        margin: 3px 0px;
+        height: 140px;
         background-size: cover;
         align-items: center;
+        justify-content: center;
     }
     .view-part {
         display: flex;
-        margin-left: 39px;
+        margin-left: 62px;
     }
     #home {
         display: flex;
@@ -372,10 +372,10 @@ footer:hover i {
     .portfolio figure:hover figcaption i {
         color: rgba (0, 0, 0, 0.7);
         transition: 0.5s;
-}
+    }
 }
 
-@media screen and (max-width: 651px) {
+@media screen (min-width: 651px) and (max-width: 967px) {
     body {
         margin: 0%;
         padding: 0%;
@@ -429,25 +429,26 @@ footer:hover i {
         background: #f08d97 url(images/floral.png);
     }
     .join-btn h1 {
-        font-size: 50px;
+        font-size: 36px;
         font-family: 'Josefin Sans', sans-serif;
     }
     .join-btn p {
         border-top: 2px solid black;
         border-bottom: 2px solid black;
-        padding: 30px;
+        padding: 8px;
         text-align: center;
         flex-wrap: wrap;
-        font-size: 20px;
+        font-size: 16px;
     }
     .join-btn button {
         background-color: black;
         border: none;
         color: #f08d97;
-        font-size: large;
-        padding: 30px 60px;
+        font-size: 16px;
+        padding: 27px 45px;
         letter-spacing: 2px;
         margin-top: 20px;
+        font-family: monospace;
     }
     .services {
         font-size: 20px;
@@ -533,11 +534,12 @@ footer:hover i {
         text-align: center;
     }
     .projects {
-        justify-content: center;
-        padding: 20px;
+        padding: 0px;
         text-align: center;
         flex-wrap: wrap;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .portfolio figcaption {
         position: absolute;
@@ -554,16 +556,17 @@ footer:hover i {
     }
     .portfolio figure {
         position: relative;
-        border-radius: 15px;
-        width: 400px;
-        margin: 10px;
-        height: 250px;
+        border-radius: 21px;
+        width: 264px;
+        margin: 3px 0px;
+        height: 140px;
         background-size: cover;
         align-items: center;
+        justify-content: center;
     }
     .view-part {
         display: flex;
-        margin-left: 39px;
+        margin-left: 62px;
     }
     .portfolio figure#locations {
         background-image: url(images/projects/p-1.png);
@@ -594,15 +597,16 @@ footer:hover i {
         color: white;
     }
     .projects figcaption h4 {
-        margin-bottom: 8px;
+        margin-bottom: 4px;
         color: white;
+        margin-top: 0px;
     }
     .portfolio figure:hover figcaption {
         display: block;
         opacity: 1;
         transition: 0.5s;
     }
-    @media screen and (min-width: 968px) {
+    @media screen and (min-width: 968px) and (max-width: 1200px) {
         .g-container figure {
             display: flex;
             flex-direction: column;
