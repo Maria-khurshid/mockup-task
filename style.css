@@ -92,10 +92,11 @@ mark {
     padding: 30px 60px;
     letter-spacing: 2px;
     margin-top: 20px;
+    font-family: monospace;
 }
 
 .services {
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -257,8 +258,15 @@ footer:hover i {
     color: white;
 }
 
+.view-part {
+    display: flex;
+    /* margin-left: 62px; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .projects figcaption h4 {
-    margin-bottom: 8px;
+    margin-top: 60px;
     color: white;
 }
 
@@ -272,7 +280,7 @@ footer:hover i {
     transition: 0.5s;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:780px) {
     /* div.offer p {
         font-size: 10px;
         display: inline;
@@ -301,6 +309,28 @@ footer:hover i {
     mark {
         background-color: yellow;
     } */
+    .g-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .join-btn {
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #f08d97 url(images/floral.png);
+    }
+    .join-btn button {
+        background-color: black;
+        border: none;
+        color: #f08d97;
+        font-size: 17px;
+        padding: 30px 60px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        font-family: monospace;
+    }
     .portfolio p {
         font-weight: bold;
         border-top: 1px solid;
@@ -313,7 +343,9 @@ footer:hover i {
         /* text-align: center; */
         flex-wrap: wrap;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
+        align-items: center;
+        justify-content: space-evenly;
     }
     .portfolio figcaption {
         position: absolute;
@@ -340,7 +372,13 @@ footer:hover i {
     }
     .view-part {
         display: flex;
-        margin-left: 62px;
+        /* margin-left: 62px; */
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .projects figcaption h4 {
+        margin-top: 20px;
+        color: white;
     }
     #home {
         display: flex;
@@ -375,7 +413,7 @@ footer:hover i {
     }
 }
 
-@media screen (min-width: 651px) and (max-width: 967px) {
+@media screen (min-width: 781px) and (max-width: 967px) {
     body {
         margin: 0%;
         padding: 0%;
@@ -607,6 +645,10 @@ footer:hover i {
         transition: 0.5s;
     }
     @media screen and (min-width: 968px) and (max-width: 1200px) {
+        .g-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
         .g-container figure {
             display: flex;
             flex-direction: column;
